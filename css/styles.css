@@ -505,6 +505,10 @@ button {
   display: block;
 }
 
+.footer-contact-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address-link {
   color: var(--white-color);
   line-height: 1.71;
@@ -519,8 +523,6 @@ button {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-
-  margin-bottom: 9px;
 
   transition: color var(--duration) var(--timing-function);
 }
@@ -607,7 +609,6 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 
 .subcribe-wrap input:focus {
   outline: 1px solid var(--accent-color);
@@ -921,7 +922,7 @@ button {
   outline: 1px solid var(--accent-color);
 }
 
-.form-group input:focus + .modal-icon{
+.form-group input:focus + .modal-icon {
   fill: var(--accent-color);
 }
 
@@ -930,9 +931,9 @@ button {
 }
 
 .check {
- transform: translateX(7px);
- display: flex;
- align-items: center;
+  transform: translateX(7px);
+  display: flex;
+  align-items: center;
 }
 
 .check-icon {
@@ -943,7 +944,7 @@ button {
   border-color: var(--text-title-color);
   border-radius: 2px;
 
-  transition: background-color var(--trans-standart); 
+  transition: background-color var(--trans-standart);
   transition: border-color var(--trans-standart);
 }
 
@@ -962,8 +963,6 @@ button {
 .check-box:checked:focus + .check-icon {
   outline: 1px solid var(--text-title-color);
 }
-
-
 
 .check-text {
   display: block;
