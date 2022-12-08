@@ -955,6 +955,16 @@ button {
   border-color: var(--accent-color);
 }
 
+.check-box:focus + .check-icon {
+  outline: 1px solid var(--accent-color);
+}
+
+.check-box:checked:focus + .check-icon {
+  outline: 1px solid var(--text-title-color);
+}
+
+
+
 .check-text {
   display: block;
   font-size: 14px;
